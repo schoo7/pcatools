@@ -1,0 +1,17 @@
+# Site settings
+title: "BBB: Bedside to Bench to Bytes"
+description: "Prostate Cancer Translational Tools for Researchers and Clinicians"
+theme: minima  # Default clean Jekyll theme
+plugins:
+  - jekyll-remote-theme
+
+# Custom settings
+repository: [your-github-username]/[your-github-username].github.io
+show_downloads: false
+google_analytics: # Optional: Add your tracking ID
+
+# Exclude files/folders from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
