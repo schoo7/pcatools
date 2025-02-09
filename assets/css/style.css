@@ -1,20 +1,37 @@
-# Site settings
-title: "BBB: Bedside to Bench to Bytes"
-description: "Prostate Cancer Translational Tools for Researchers and Clinicians"
-theme: minima  # Default Jekyll theme
+/* Custom CSS for scientific aesthetic */
+body {
+  font-family: 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.8;
+  color: #2c3e50;
+  margin: 0;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
 
-# Plugins (indent with 2 spaces!)
-plugins:
-  - jekyll-remote-theme
+h1, h2 {
+  color: #34495e; /* Dark slate */
+  border-bottom: 2px solid #3498db; /* Accent blue */
+  padding-bottom: 10px;
+}
 
-# Repository info
-repository: your-github-username/your-github-username.github.io  # Replace with your username
+a {
+  color: #2980b9; /* Professional blue */
+  text-decoration: none;
+}
 
-# Display settings
-show_downloads: false
+a:hover {
+  color: #e74c3c; /* Highlight red */
+}
 
-# Exclude files
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - README.md
+img {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* Responsive images */
+@media (max-width: 768px) {
+  img {
+    width: 100%;
+  }
+}
