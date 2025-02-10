@@ -1,9 +1,9 @@
 ---
 layout: home
-title: "BBB: Bedside to Bench to Bytes | Prostate Cancer Translational Tools"
+title: "Prostate Cancer Translational Tools"
 ---
 
-# **BBB: Bedside to Bench to Bytes**  
+# **Bedside to Bench to Bytes**  
 **Empowering Prostate Cancer Research with Accessible Bioinformatics Tools**  
 
 Our suite of **open-access platforms** bridges clinical data, preclinical models, and multi-omics insights—no coding required. Designed for **clinicians** and **researchers**, these tools decode prostate cancer heterogeneity, streamline biomarker discovery, and accelerate therapeutic development. Accessible anytime, anywhere—even on your smartphone.  
@@ -16,9 +16,9 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ![HuPSA-MoPSA Preview](assets/hupsa-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
 
-### **Why It Matters for Your Work**  
-- **Discover Novel Subtypes**: Uncover hidden populations like *KRT7-high* and *SOX2/FOXA2+ progenitor-like cells* linked to aggressive disease.  
-- **Clinical Translation**: Validate subtypes in bulk transcriptome data from human specimens to guide patient stratification.  
+### **Highlights**  
+- **Discover Novel Subtype markers**: Uncover hidden populations like *KRT7-high* and *SOX2/FOXA2+ progenitor-like cells* linked to aggressive disease.  
+- **Clinical Translation**: Validate subtype markers in bulk transcriptome data from human specimens to guide patient stratification.  
 - **Interactive Visualization**: Instantly plot gene expression across 50+ single-cell/bulk RNA-seq datasets from clinical cohorts and mouse models.  
 
 **Key Features**  
@@ -34,10 +34,10 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ![CTPC Demo](assets/ctpc-demo.gif){: style="width: 100%; max-width: 800px; margin: 20px 0;"}
 
-### **Optimize Your Lab’s Model Selection**  
+### **Optimize Research Model Selection**  
 - **Golden-Standard Baselines**: Molecular profiles of 2,000+ prostate cancer cell lines (e.g., LNCaP, PC3, DU145).  
 - **Treatment-Gene Networks**: Identify drug-responsive pathways for mechanistic studies or drug repurposing.  
-- **Biomarker Validation**: Cross-reference clinical datasets to prioritize targets with translational potential.  
+- **Biomarker Validation**: Cross-reference datasets to prioritize targets with translational potential.  
 
 **For Researchers**  
 🔬 Compare cell line responses to therapies  
@@ -48,7 +48,8 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ## **LNCaP-ADT Multi-Omics Hub**  
 **Deciphering Androgen Deprivation Resistance Mechanisms**  
-*URL*: [https://pcatools.shinyapps.io/shinyADT/](https://pcatools.shinyapps.io/shinyADT/)  
+*URL*: [https://pcatools.shinyapps.io/shinyADT/](https://pcatools.shinyapps.io/shinyADT/) 
+
 ![LNCaP-ADT Preview](assets/shinyadt-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
 
 ### **Key to Overcoming Treatment Resistance**  
@@ -77,4 +78,4 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ---
 
-*Developed by [Your Name/Lab], Bridging Prostate Cancer Biology & Computational Innovation.*  
+*Developed by [Siyuan Cheng/Mu lab], Bridging Prostate Cancer Biology & Computational Innovation.*  
