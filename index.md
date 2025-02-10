@@ -1,7 +1,3 @@
----
-layout: home
-
----
 
 # **Bedside to Bench to Bytes**  
 **Empowering Prostate Cancer Research with Accessible Bioinformatics Tools**  
