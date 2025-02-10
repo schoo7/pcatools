@@ -79,3 +79,5 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 ---
 
 *Developed by [Siyuan Cheng/Mu lab], Bridging Prostate Cancer Biology & Computational Innovation.*  
+*siyuan.cheng@yale.edu*
+*@chengsiyuan1004*
