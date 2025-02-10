@@ -1,6 +1,6 @@
 # Site settings
-title: "BBB: Bedside to Bench to Bytes"
-description: "Prostate Cancer Translational Tools for Researchers and Clinicians"
+title: "Prostate Cancer Translational Tools for Researchers and Clinicians"
+description: "Bedside to Bench to Bytes"
 theme: minima  # Default Jekyll theme
 
 # Plugins (indent with 2 spaces!)
@@ -8,7 +8,7 @@ plugins:
   - jekyll-remote-theme
 
 # Repository info
-repository: your-github-username/your-github-username.github.io  # Replace with your username
+repository: schoo7/schoo7.github.io  # Replace with your username
 
 # Display settings
 show_downloads: false
