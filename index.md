@@ -1,6 +1,5 @@
 
-# **Bedside to Bench to Bytes**  
-**Empowering Prostate Cancer Research with Accessible Bioinformatics Tools**  
+## **Empowering Prostate Cancer Research with Accessible Bioinformatics Tools**  
 
 Our suite of **open-access platforms** bridges clinical data, preclinical models, and multi-omics insights—no coding required. Designed for **clinicians** and **researchers**, these tools decode prostate cancer heterogeneity, streamline biomarker discovery, and accelerate therapeutic development. Accessible anytime, anywhere—even on your smartphone.  
 
