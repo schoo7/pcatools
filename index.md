@@ -11,7 +11,8 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 ---
 
 ## **HuPSA-MoPSA: Single-Cell Atlas Explorer**  
-**Explore Human & Mouse Prostate Cancer at Single-Cell Resolution**  
+**Explore Human & Mouse Prostate Cancer at Single-Cell Resolution** 
+
 *URL*: [https://pcatools.shinyapps.io/HuPSA-MoPSA/](https://pcatools.shinyapps.io/HuPSA-MoPSA/)  
 
 ![HuPSA-MoPSA Preview](assets/hupsa-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
@@ -30,6 +31,7 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ## **CTPC: Prostate Cancer Cell Line Encyclopedia**  
 **Precision Medicine Starts with Precise Preclinical Models**  
+
 *URL*: [https://pcatools.shinyapps.io/CTPC_dev/](https://pcatools.shinyapps.io/CTPC_dev/)  
 
 ![CTPC Demo](assets/ctpc-demo.gif){: style="width: 100%; max-width: 800px; margin: 20px 0;"}
@@ -48,6 +50,7 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ## **LNCaP-ADT Multi-Omics Hub**  
 **Deciphering Androgen Deprivation Resistance Mechanisms**  
+
 *URL*: [https://pcatools.shinyapps.io/shinyADT/](https://pcatools.shinyapps.io/shinyADT/) 
 
 ![LNCaP-ADT Preview](assets/shinyadt-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
