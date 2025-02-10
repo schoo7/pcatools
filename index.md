@@ -1,6 +1,6 @@
 ---
 layout: home
-title: "Prostate Cancer Translational Tools developed by Siyuan Cheng @ Mu lab"
+title: ""
 ---
 ## **Empowering Prostate Cancer Research with Accessible Bioinformatics Tools**  
 
