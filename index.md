@@ -68,6 +68,28 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 
 ---
 
+## **PCTA: Pan-cancer Cell Line Transcriptome Atlas**  
+**Expanding Horizons Beyond Prostate Cancer**  
+
+*URL*: [https://pcatools.shinyapps.io/PCTA_app/](https://pcatools.shinyapps.io/PCTA_app/)  
+
+![PCTA Preview](assets/pcta-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
+
+
+### **Highlights**  
+- **Cross-Cancer Insights**: Compare prostate cancer cell lines with 535+ cell lines across 114 cancer types to identify conserved or unique molecular features.  
+- **Comprehensive Dataset**: 24,965 genes across 84,385 samples from 5,677 studies.
+- - **Tissue-Specific Clustering**: Visualize how prostate cancer cell lines cluster with other tissue types, revealing shared or divergent pathways. 
+- **User-Friendly Interface**: No bioinformatics expertise required—search genes, visualize trends, and export results in seconds.
+- **Biomarker Discovery**: Leverage pan-cancer data to validate prostate cancer-specific biomarkers or repurpose findings from other cancers.   
+
+**For Researchers**  
+🔬 Compare prostate cancer cell lines with other cancer types  
+🔬 Identify conserved pathways or tissue-specific markers  
+🔬 Export gene expression matrices for downstream analysis  
+
+---
+
 ## **How to Use These Tools**  
 1. **Click any platform above** → Start exploring without registration.  
 2. **Search genes** (e.g., *AR*, *KRT7*) or browse precomputed analyses.  
@@ -81,6 +103,7 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 - **Open Science**: All datasets are publicly available; methods peer-reviewed.  
 
 ---
+
 
 *Developed by [Siyuan Cheng/Mu lab], Bridging Prostate Cancer Biology & Computational Innovation.*  
 *siyuan.cheng@yale.edu*
