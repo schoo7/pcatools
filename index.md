@@ -30,7 +30,7 @@ Our suite of **open-access platforms** bridges clinical data, preclinical models
 ## **CTPC: Prostate Cancer Cell Line Encyclopedia**  
 **Precision Medicine Starts with Precise Preclinical Models**  
 *URL*: [https://pcatools.shinyapps.io/CTPC_dev/](https://pcatools.shinyapps.io/CTPC_dev/)  
-![CTPC Preview](assets/ctpc-screenshot.png){: style="width: 100%; max-width: 800px; border: 1px solid #ddd; margin: 20px 0;"}  
+![CTPC Demo](assets/ctpc-demo.gif){: style="width: 100%; max-width: 800px; margin: 20px 0;"}
 
 ### **Optimize Your Lab’s Model Selection**  
 - **Golden-Standard Baselines**: Molecular profiles of 2,000+ prostate cancer cell lines (e.g., LNCaP, PC3, DU145).  
