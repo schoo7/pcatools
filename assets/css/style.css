@@ -37,6 +37,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  max-width: none !important;
 }
 
 body {
@@ -50,6 +51,7 @@ body {
   -moz-osx-font-smoothing: grayscale;
   min-width: 7200px !important;
   overflow-x: auto !important;
+  width: 100% !important;
 }
 
 /* Container and Layout */
@@ -241,6 +243,8 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
+  max-width: 7200px !important;
+  width: 100% !important;
 }
 
 .feature-item {
@@ -406,4 +410,49 @@ code {
   html {
     zoom: 0.8;
   }
+}
+
+/* FORCE ULTRA-WIDE LAYOUT */
+* {
+  max-width: none !important;
+}
+
+body, html {
+  width: 100% !important;
+  min-width: 7200px !important;
+  max-width: none !important;
+}
+
+.container, 
+.main-content,
+.page-content,
+.wrapper,
+.site-header,
+.site-footer,
+main,
+article,
+section {
+  max-width: 7200px !important;
+  width: 100% !important;
+  margin: 0 auto !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
+.hero .container,
+.tool-section .container {
+  max-width: 7200px !important;
+  width: 100% !important;
+}
+
+/* Override Jekyll theme constraints */
+.site-content {
+  max-width: 7200px !important;
+  width: 100% !important;
+}
+
+/* Force grid layouts to use full width */
+.features-grid {
+  max-width: 7200px !important;
+  width: 100% !important;
 }
