@@ -1,13 +1,11 @@
 # Site settings
 title: "Prostate Cancer Translational Research Hub"
 description: "Bridging Bedside, Bench, and Bytes - Advanced bioinformatics tools for prostate cancer research"
-theme: jekyll-theme-minimal
+theme: minima  # Default Jekyll theme
 
 # Plugins (indent with 2 spaces!)
 plugins:
   - jekyll-remote-theme
-  - jekyll-sass-converter
-  - jekyll-seo-tag
 
 # Repository info
 repository: schoo7/pcatools  # Updated repository reference
@@ -25,17 +23,3 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-
-# Force Jekyll to process CSS files
-include:
-  - assets/css/style.css
-
-# Disable unnecessary processing
-markdown: kramdown
-kramdown:
-  input: GFM
-  hard_wrap: false
-
-# Auto-rebuild triggers
-watch: true
-livereload: true

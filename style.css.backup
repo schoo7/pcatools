@@ -374,14 +374,3 @@ code {
     font-size: 0.75rem;
   }
 }
-
-.tool-title-highlight {
-  font-size: 2.2rem;
-  font-weight: 700;
-  color: var(--primary-blue-dark);
-  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(8, 145, 178, 0.1) 100%);
-  padding: 0.5rem 1rem;
-  border-radius: 0.5rem;
-  display: inline-block;
-  box-shadow: var(--shadow-sm);
-}
