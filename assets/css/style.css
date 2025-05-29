@@ -182,6 +182,7 @@ a:hover {
   align-items: center;
   gap: 1rem;
   margin-bottom: 1.5rem;
+  margin-top: 6rem;
 }
 
 .tool-icon {
@@ -198,7 +199,7 @@ a:hover {
 }
 
 .tool-title {
-  font-size: 1.75rem;
+  font-size: 3.5rem;
   color: var(--primary-blue-dark);
   margin: 0;
   font-weight: 700;
