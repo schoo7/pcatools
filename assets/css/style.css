@@ -154,7 +154,7 @@ a:hover {
   background: #ffffff;
   border-radius: 1rem;
   padding: var(--card-padding);
-  margin-bottom: 3rem;
+  margin-bottom: 4rem;
   box-shadow: var(--shadow-lg);
   border: 1px solid var(--neutral-200);
   transition: all 0.3s ease;
@@ -372,50 +372,4 @@ code {
   .tool-url {
     font-size: 0.75rem;
   }
-}
-
-/* Tab Styles */
-.tool-tabs-wrapper {
-  margin-top: 2rem;
-}
-
-.tabs-nav {
-  display: flex;
-  flex-wrap: wrap;
-  border-bottom: 2px solid var(--neutral-200);
-  margin-bottom: 1.5rem;
-}
-
-.tab-link {
-  padding: 1rem 1.5rem;
-  border: none;
-  background: transparent;
-  cursor: pointer;
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--neutral-600);
-  transition: all 0.3s ease;
-  margin-bottom: -2px; /* To align with the border bottom */
-  border-bottom: 2px solid transparent;
-}
-
-.tab-link:hover {
-  color: var(--primary-blue-dark);
-}
-
-.tab-link.active {
-  color: var(--primary-blue);
-  border-bottom-color: var(--primary-blue);
-}
-
-.tabs-content {
-  /* Add padding or other styles if needed */
-}
-
-.tab-pane {
-  display: none; /* Hide by default */
-}
-
-.tab-pane.active {
-  display: block; /* Show active tab */
 }

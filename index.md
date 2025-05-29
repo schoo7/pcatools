@@ -17,25 +17,11 @@ title: ""
 
 <div class="container">
 
-  <div class="tool-tabs-wrapper">
-    <!-- Tab Navigation (Add your tab links/buttons here) -->
-    <div class="tabs-nav">
-      <button class="tab-link active" data-tab="hupsa-mopsa">HuPSA-MoPSA</button>
-      <button class="tab-link" data-tab="ctpc">CTPC</button>
-      <button class="tab-link" data-tab="lncap-adt">LNCaP-ADT Multi-Omics Hub</button>
-      <button class="tab-link" data-tab="pcta">PCTA</button>
-      <button class="tab-link" data-tab="impact-sc">IMPACT-sc</button>
-      <button class="tab-link" data-tab="sra-llm">SRA-LLM</button>
-    </div>
-
-    <!-- Tab Content -->
-    <div class="tabs-content">
-      
-      <!-- HuPSA-MoPSA Tab Content -->
-      <div id="hupsa-mopsa" class="tab-pane active">
 ## Interactive Web Applications
 
 Our web-based tools provide intuitive access to complex multi-omics datasets, enabling real-time exploration and analysis of prostate cancer biology.
+
+
 
 ---
 
@@ -78,10 +64,8 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-      </div>
 
-      <!-- CTPC Tab Content -->
-      <div id="ctpc" class="tab-pane">
+
 ---
 
 <div class="tool-section">
@@ -123,10 +107,8 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-      </div>
 
-      <!-- LNCaP-ADT Multi-Omics Hub Tab Content -->
-      <div id="lncap-adt" class="tab-pane">
+
 ---
 
 <div class="tool-section">
@@ -168,10 +150,8 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-      </div>
 
-      <!-- PCTA Tab Content -->
-      <div id="pcta" class="tab-pane">
+
 ---
 
 <div class="tool-section">
@@ -213,13 +193,15 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-      </div>
 
-      <!-- IMPACT-sc Tab Content -->
-      <div id="impact-sc" class="tab-pane">
+
+---
+
 ## Computational Pipelines & Analysis Tools
 
 Advanced bioinformatics workflows and AI-powered research assistants that streamline complex analytical tasks.
+
+
 
 ---
 
@@ -285,10 +267,8 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
   </div>
 </div>
 
-      </div>
 
-      <!-- SRA-LLM Tab Content -->
-      <div id="sra-llm" class="tab-pane">
+
 ---
 
 <div class="tool-section">
@@ -353,10 +333,9 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
   </div>
 </div>
 
-      </div>
 
-    </div>
-  </div>
+
+---
 
 ## Getting Started
 
@@ -378,6 +357,8 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     <p class="feature-text"><strong>Validate Findings:</strong> Cross-reference results across multiple tools and datasets for robust conclusions</p>
   </div>
 </div>
+
+
 
 ---
 
