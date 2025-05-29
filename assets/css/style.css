@@ -199,11 +199,10 @@ a:hover {
 }
 
 .tool-title {
-  font-size: 4rem;
+  font-size: 3.5rem;
   color: var(--primary-blue-dark);
   margin: 0;
-  font-weight: 800;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+  font-weight: 700;
 }
 
 .tool-url {
