@@ -21,15 +21,13 @@ title: ""
 
 Our web-based tools provide intuitive access to complex multi-omics datasets, enabling real-time exploration and analysis of prostate cancer biology.
 
-
-
 ---
 
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
       <div class="tool-icon"></div>
-      <h3 class="tool-title">HuPSA-MoPSA: Single-Cell Atlas Explorer</h3>
+      <h3 class="tool-title"><span class="tool-title-highlight">HuPSA-MoPSA: Single-Cell Atlas Explorer</span></h3>
     </div>
     
     <a href="https://pcatools.shinyapps.io/HuPSA-MoPSA/" class="tool-url" target="_blank">
@@ -63,8 +61,6 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     <img src="assets/hupsa-screenshot.png" alt="HuPSA-MoPSA Interface Preview" />
   </div>
 </div>
-
-
 
 ---
 
@@ -107,8 +103,6 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-
-
 ---
 
 <div class="tool-section">
@@ -149,8 +143,6 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     <img src="assets/shinyadt-screenshot.png" alt="LNCaP-ADT Analysis Interface" />
   </div>
 </div>
-
-
 
 ---
 
@@ -193,15 +185,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
-
-
 ---
 
 ## Computational Pipelines & Analysis Tools
 
 Advanced bioinformatics workflows and AI-powered research assistants that streamline complex analytical tasks.
-
-
 
 ---
 
@@ -267,8 +255,6 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
   </div>
 </div>
 
-
-
 ---
 
 <div class="tool-section">
@@ -333,8 +319,6 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
   </div>
 </div>
 
-
-
 ---
 
 ## Getting Started
@@ -357,8 +341,6 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     <p class="feature-text"><strong>Validate Findings:</strong> Cross-reference results across multiple tools and datasets for robust conclusions</p>
   </div>
 </div>
-
-
 
 ---
 
