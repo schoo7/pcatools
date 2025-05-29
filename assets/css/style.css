@@ -22,7 +22,7 @@
   --font-family-mono: 'Fira Code', 'SF Mono', Consolas, monospace;
   
   /* Spacing */
-  --container-max-width: 1440px;
+  --container-max-width: 7200px;
   --section-padding: 4rem 0;
   --card-padding: 2rem;
   
@@ -48,13 +48,16 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  min-width: 7200px !important;
+  overflow-x: auto !important;
 }
 
 /* Container and Layout */
 .container {
-  max-width: var(--container-max-width);
+  max-width: 7200px !important;
+  width: 100% !important;
   margin: 0 auto;
-  padding: 0 2rem;
+  padding: 0 2rem !important;
 }
 
 /* Typography */
@@ -384,4 +387,23 @@ code {
   border-radius: 0.5rem;
   display: inline-block;
   box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 7680px) {
+  .container {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 4800px) {
+  .container {
+    padding: 0 3rem;
+  }
+  h1 { font-size: 4rem; }
+}
+
+@media (min-width: 7200px) {
+  html {
+    zoom: 0.8;
+  }
 }
