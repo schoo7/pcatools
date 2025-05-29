@@ -17,7 +17,9 @@ title: ""
 
 <div class="container">
 
-## ** Interactive Web Applications**
+## Interactive Web Applications
+
+<div class="interactive-tools-container">
 
 Our web-based tools provide intuitive access to complex multi-omics datasets, enabling real-time exploration and analysis of prostate cancer biology.
 
@@ -185,9 +187,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
   </div>
 </div>
 
----
+</div>
 
-## ** Computational Pipelines & Analysis Tools**
+## Computational Pipelines & Analysis Tools
+
+<div class="computational-tools-container">
 
 Advanced bioinformatics workflows and AI-powered research assistants that streamline complex analytical tasks.
 
@@ -228,7 +232,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
       </div>
     </div>
     
-    <h4>🛠️ Key Analysis Modules:</h4>
+    <h4>Key Analysis Modules:</h4>
     <div class="features-grid">
       <div class="feature-item">
         <div class="feature-icon"></div>
@@ -248,10 +252,10 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
       </div>
     </div>
     
-    <span class="badge">🐍 Python</span>
-    <span class="badge">📊 R</span>
-    <span class="badge">🔬 Single-Cell</span>
-    <span class="badge">🤖 AI/ML</span>
+    <span class="badge"> Python</span>
+    <span class="badge"> R</span>
+    <span class="badge"> Single-Cell</span>
+    <span class="badge"> AI/ML</span>
   </div>
 </div>
 
@@ -292,7 +296,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
       </div>
     </div>
     
-    <h4>🎯 Research Applications:</h4>
+    <h4>Research Applications:</h4>
     <div class="features-grid">
       <div class="feature-item">
         <div class="feature-icon"></div>
@@ -312,16 +316,16 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
       </div>
     </div>
     
-    <span class="badge">🤖 LLM</span>
-    <span class="badge">📚 NLP</span>
-    <span class="badge">🔬 Research</span>
-    <span class="badge">💡 AI Assistant</span>
+    <span class="badge"> LLM</span>
+    <span class="badge"> NLP</span>
+    <span class="badge"> Research</span>
+    <span class="badge"> AI Assistant</span>
   </div>
 </div>
 
----
+</div>
 
-## **🚀 Getting Started**
+## Getting Started
 
 <div class="features-grid">
   <div class="feature-item">
@@ -344,7 +348,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
 
 ---
 
-## **💡 Why Choose Our Platform?**
+## Why Choose Our Platform?
 
 <div class="features-grid">
   <div class="feature-item">

@@ -199,8 +199,9 @@ a:hover {
 
 .tool-title {
   font-size: 1.75rem;
-  color: var(--neutral-900);
+  color: var(--primary-blue-dark);
   margin: 0;
+  font-weight: 700;
 }
 
 .tool-url {
