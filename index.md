@@ -401,8 +401,5 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
       <a href="https://twitter.com/chengsiyuan1004" target="_blank">@chengsiyuan1004</a> | 
       <a href="mailto:siyuan.cheng@yale.edu">siyuan.cheng@yale.edu</a>
     </p>
-    <p style="margin-top: 2rem; font-size: 0.9rem; color: var(--neutral-400);">
-      © 2025 Yale University | All tools are open-source and freely available for academic research
-    </p>
   </div>
 </div>
