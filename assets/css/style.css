@@ -374,3 +374,9 @@ code {
     font-size: 0.75rem;
   }
 }
+/* Mobile Improvements */
+@media (max-width: 480px) {
+  .tool-title { font-size: 1.5rem; }
+  .tool-card { padding: 1rem; }
+  .features-grid { grid-template-columns: 1fr; }
+}
