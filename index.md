@@ -26,7 +26,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">🔬</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">HuPSA-MoPSA: Single-Cell Atlas Explorer</h3>
     </div>
     
@@ -41,11 +41,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">🎯</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Discover Novel Biomarkers:</strong> Uncover hidden cellular populations like KRT7-high and SOX2/FOXA2+ progenitor-like cells linked to aggressive disease progression</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🏥</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Clinical Translation:</strong> Validate subtype markers across 50+ bulk transcriptome datasets from human clinical specimens</p>
       </div>
       <div class="feature-item">
@@ -67,7 +67,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">🧪</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">CTPC: Prostate Cancer Cell Line Encyclopedia</h3>
     </div>
     
@@ -82,11 +82,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">📈</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Golden-Standard Baselines:</strong> Access molecular profiles of established cell lines (LNCaP, PC3, DU145) with quality-controlled data</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🎛️</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Treatment-Gene Networks:</strong> Identify drug-responsive pathways for mechanistic studies and therapeutic repurposing</p>
       </div>
       <div class="feature-item">
@@ -108,7 +108,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">💊</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">LNCaP-ADT Multi-Omics Hub</h3>
     </div>
     
@@ -123,15 +123,15 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">🔗</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Multi-Omics Integration:</strong> Correlate transcriptomic, epigenetic, and transcription factor occupancy data</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📈</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Dynamic Adaptation Maps:</strong> Track molecular changes during ADT at single-cell resolution</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🎯</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Resistance Mechanisms:</strong> Identify drivers of castration resistance and therapeutic vulnerabilities</p>
       </div>
       <div class="feature-item">
@@ -149,7 +149,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">🌍</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">PCTA: Pan-Cancer Cell Line Transcriptome Atlas</h3>
     </div>
     
@@ -164,11 +164,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">🔄</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Cross-Cancer Insights:</strong> Comprehensive dataset spanning 24,965 genes across 84,385 samples from 5,677 studies</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🎯</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Biomarker Discovery:</strong> Validate prostate cancer-specific markers and identify cross-cancer therapeutic targets</p>
       </div>
       <div class="feature-item">
@@ -196,7 +196,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">⚡</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">IMPACT-sc: Integrated Single-Cell Analysis Pipeline</h3>
     </div>
     
@@ -211,11 +211,11 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">🔧</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Modular Architecture:</strong> 10+ analysis modules from QC to advanced downstream analyses with interactive configuration</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🧠</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>AI-Powered Annotation:</strong> Integrates Cell2Sentence for semantic cell type prediction and SingleR for reference-based annotation</p>
       </div>
       <div class="feature-item">
@@ -231,19 +231,19 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     <h4>🛠️ Key Analysis Modules:</h4>
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">1</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Data Processing:</strong> QC filtering, normalization, and batch correction with Harmony</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">2</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Cell Type Annotation:</strong> Multi-method annotation combining Seurat clustering, SingleR, and Cell2Sentence</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">3</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Differential Expression:</strong> Statistical analysis with Gene Set Enrichment Analysis (GSEA)</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">4</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Pathway Analysis:</strong> Transcription factor activity inference and pathway scoring</p>
       </div>
     </div>
@@ -260,7 +260,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
 <div class="tool-section">
   <div class="tool-card">
     <div class="tool-header">
-      <div class="tool-icon">🔍</div>
+      <div class="tool-icon"></div>
       <h3 class="tool-title">SRA-LLM: Smart Research Assistant</h3>
     </div>
     
@@ -275,19 +275,19 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">🤖</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>LLM Integration:</strong> Powered by state-of-the-art language models for intelligent literature analysis and synthesis</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📚</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Literature Mining:</strong> Automated extraction and summarization of key findings from research publications</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">💡</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Hypothesis Generation:</strong> AI-assisted identification of research gaps and novel research directions</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🔗</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Knowledge Integration:</strong> Connects findings across studies to reveal hidden patterns and relationships</p>
       </div>
     </div>
@@ -295,19 +295,19 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     <h4>🎯 Research Applications:</h4>
     <div class="features-grid">
       <div class="feature-item">
-        <div class="feature-icon">📖</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Literature Review:</strong> Automated summarization and synthesis of research papers</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🧠</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Concept Discovery:</strong> Identify emerging trends and novel therapeutic targets</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🔬</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Experimental Design:</strong> AI-assisted methodology recommendations and protocol optimization</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Data Interpretation:</strong> Contextual analysis of experimental results within existing literature</p>
       </div>
     </div>
@@ -325,19 +325,19 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
 
 <div class="features-grid">
   <div class="feature-item">
-    <div class="feature-icon">1</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Choose Your Tool:</strong> Select the platform that best fits your research question or analytical needs</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">2</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Explore Data:</strong> Use intuitive interfaces to search genes, browse datasets, or configure analysis pipelines</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">3</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Generate Insights:</strong> Create publication-ready visualizations and export results for further analysis</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">4</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Validate Findings:</strong> Cross-reference results across multiple tools and datasets for robust conclusions</p>
   </div>
 </div>
@@ -348,27 +348,27 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
 
 <div class="features-grid">
   <div class="feature-item">
-    <div class="feature-icon">🎯</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>No Coding Required:</strong> Intuitive web interfaces make advanced bioinformatics accessible to all researchers</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">📱</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Mobile Optimized:</strong> Analyze data anywhere, anytime—even on your smartphone or tablet</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">🔓</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Open Science:</strong> All datasets are publicly available with peer-reviewed, reproducible methods</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">⚡</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Real-Time Analysis:</strong> Instant results with interactive visualizations and customizable parameters</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">🤝</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Clinical Translation:</strong> Bridge preclinical findings with clinical data for translational insights</p>
   </div>
   <div class="feature-item">
-    <div class="feature-icon">🔬</div>
+    <div class="feature-icon"></div>
     <p class="feature-text"><strong>Comprehensive Coverage:</strong> From single cells to populations, from discovery to validation</p>
   </div>
 </div>
