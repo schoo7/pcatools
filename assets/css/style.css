@@ -1,4 +1,4 @@
-/* REASONABLE WIDE LAYOUT */
+/* RESPONSIVE LAYOUT - ADJUSTABLE TO SCREEN SIZE */
 html, body {
   width: 100% !important;
   max-width: none !important;
@@ -9,9 +9,10 @@ html, body {
 
 /* Override any theme container constraints */
 .wrapper, .page-content, .site-header, .site-footer, .post-content {
-  max-width: 2880px !important; /* 2x original width instead of 5x */
-  width: 100% !important;
+  max-width: 95% !important; /* Use 95% of screen width */
+  width: 95% !important;
   margin: 0 auto !important;
+  padding: 0 2.5% !important; /* 2.5% padding on each side */
 }
 
 /* Modern Scientific Research Website Design */
@@ -37,8 +38,8 @@ html, body {
   --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-family-mono: 'Fira Code', 'SF Mono', Consolas, monospace;
   
-  /* Spacing */
-  --container-max-width: 2880px; /* 2x original width */
+  /* Spacing - Responsive */
+  --container-max-width: 95%; /* Responsive width */
   --section-padding: 4rem 0;
   --card-padding: 2rem;
   
@@ -74,10 +75,10 @@ body {
 
 /* Container and Layout */
 .container {
-  max-width: 2880px !important; /* 2x original width */
-  width: 100% !important;
+  max-width: 95% !important; /* Use 95% of screen width */
+  width: 95% !important;
   margin: 0 auto;
-  padding: 0 2rem !important;
+  padding: 0 2.5% !important; /* 2.5% padding on each side */
 }
 
 /* Typography */
@@ -463,4 +464,96 @@ section {
 .features-grid {
   max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
+}
+
+/* Responsive breakpoints */
+@media (min-width: 1200px) {
+  .container {
+    max-width: 90% !important;
+    padding: 0 5% !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container {
+    max-width: 85% !important;
+    padding: 0 7.5% !important;
+  }
+}
+
+@media (min-width: 2000px) {
+  .container {
+    max-width: 80% !important;
+    padding: 0 10% !important;
+  }
+}
+
+/* Update all container classes for responsive design */
+.container, 
+.main-content,
+.page-content,
+.wrapper,
+.site-header,
+.site-footer,
+main,
+article,
+section {
+  max-width: 95% !important; /* Responsive to screen size */
+  width: 95% !important;
+  margin: 0 auto !important;
+  padding-left: 2.5% !important;
+  padding-right: 2.5% !important;
+}
+
+.hero .container,
+.tool-section .container {
+  max-width: 95% !important; /* Responsive to screen size */
+  width: 95% !important;
+}
+
+/* Override Jekyll theme constraints */
+.site-content {
+  max-width: 95% !important; /* Responsive to screen size */
+  width: 95% !important;
+}
+
+/* Force grid layouts to be responsive */
+.features-grid {
+  max-width: 95% !important; /* Responsive to screen size */
+  width: 95% !important;
+}
+
+/* Additional responsive overrides */
+@media (min-width: 1200px) {
+  .container, 
+  .main-content,
+  .page-content,
+  .wrapper,
+  .site-header,
+  .site-footer,
+  .hero .container,
+  .tool-section .container,
+  .site-content,
+  .features-grid {
+    max-width: 90% !important;
+    padding-left: 5% !important;
+    padding-right: 5% !important;
+  }
+}
+
+@media (min-width: 1600px) {
+  .container, 
+  .main-content,
+  .page-content,
+  .wrapper,
+  .site-header,
+  .site-footer,
+  .hero .container,
+  .tool-section .container,
+  .site-content,
+  .features-grid {
+    max-width: 85% !important;
+    padding-left: 7.5% !important;
+    padding-right: 7.5% !important;
+  }
 }
