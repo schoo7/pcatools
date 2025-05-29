@@ -17,7 +17,7 @@ title: ""
 
 <div class="container">
 
-## **🧬 Interactive Web Applications**
+## ** Interactive Web Applications**
 
 Our web-based tools provide intuitive access to complex multi-omics datasets, enabling real-time exploration and analysis of prostate cancer biology.
 
@@ -31,7 +31,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     </div>
     
     <a href="https://pcatools.shinyapps.io/HuPSA-MoPSA/" class="tool-url" target="_blank">
-      🌐 https://pcatools.shinyapps.io/HuPSA-MoPSA/
+      https://pcatools.shinyapps.io/HuPSA-MoPSA/
     </a>
     
     <p class="tool-description">
@@ -49,11 +49,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
         <p class="feature-text"><strong>Clinical Translation:</strong> Validate subtype markers across 50+ bulk transcriptome datasets from human clinical specimens</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Interactive Visualization:</strong> Generate publication-ready figures with real-time gene expression analysis</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🔄</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Cross-Species Analysis:</strong> Compare molecular profiles between human and mouse models for translational insights</p>
       </div>
     </div>
@@ -72,7 +72,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     </div>
     
     <a href="https://pcatools.shinyapps.io/CTPC_dev/" class="tool-url" target="_blank">
-      🌐 https://pcatools.shinyapps.io/CTPC_dev/
+      https://pcatools.shinyapps.io/CTPC_dev/
     </a>
     
     <p class="tool-description">
@@ -87,14 +87,14 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
       </div>
       <div class="feature-item">
         <div class="feature-icon"></div>
-        <p class="feature-text"><strong>Treatment-Gene Networks:</strong> Identify drug-responsive pathways for mechanistic studies and therapeutic repurposing</p>
+        <p class="feature-text"><strong>Treatment-Gene Networks:</strong> Identify drug-responsive pathways for mechanistic studies or drug repurposing</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">✅</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Biomarker Validation:</strong> Cross-reference datasets to prioritize targets with clinical translational potential</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">💾</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Data Export:</strong> Download normalized expression matrices and analysis results for downstream applications</p>
       </div>
     </div>
@@ -113,7 +113,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     </div>
     
     <a href="https://pcatools.shinyapps.io/shinyADT/" class="tool-url" target="_blank">
-      🌐 https://pcatools.shinyapps.io/shinyADT/
+      https://pcatools.shinyapps.io/shinyADT/
     </a>
     
     <p class="tool-description">
@@ -135,7 +135,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
         <p class="feature-text"><strong>Resistance Mechanisms:</strong> Identify drivers of castration resistance and therapeutic vulnerabilities</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🕸️</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Network Analysis:</strong> Export co-expression networks for experimental validation</p>
       </div>
     </div>
@@ -154,7 +154,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
     </div>
     
     <a href="https://pcatools.shinyapps.io/PCTA_app/" class="tool-url" target="_blank">
-      🌐 https://pcatools.shinyapps.io/PCTA_app/
+      https://pcatools.shinyapps.io/PCTA_app/
     </a>
     
     <p class="tool-description">
@@ -172,11 +172,11 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
         <p class="feature-text"><strong>Biomarker Discovery:</strong> Validate prostate cancer-specific markers and identify cross-cancer therapeutic targets</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Tissue-Specific Clustering:</strong> Visualize relationships between cancer types and identify shared pathways</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🔬</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Drug Repurposing:</strong> Leverage pan-cancer data to identify therapeutic opportunities from other oncology areas</p>
       </div>
     </div>
@@ -187,7 +187,7 @@ Our web-based tools provide intuitive access to complex multi-omics datasets, en
 
 ---
 
-## **🤖 Computational Pipelines & Analysis Tools**
+## ** Computational Pipelines & Analysis Tools**
 
 Advanced bioinformatics workflows and AI-powered research assistants that streamline complex analytical tasks.
 
@@ -201,7 +201,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     </div>
     
     <a href="https://github.com/schoo7/impact_sc" class="tool-url" target="_blank">
-      📁 https://github.com/schoo7/impact_sc
+      https://github.com/schoo7/impact_sc
     </a>
     
     <p class="tool-description">
@@ -219,11 +219,11 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
         <p class="feature-text"><strong>AI-Powered Annotation:</strong> Integrates Cell2Sentence for semantic cell type prediction and SingleR for reference-based annotation</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">📊</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Advanced Analytics:</strong> Pathway analysis with DecoupleR, gene signature scoring with UCell, and pseudotime analysis with Palantir</p>
       </div>
       <div class="feature-item">
-        <div class="feature-icon">🔄</div>
+        <div class="feature-icon"></div>
         <p class="feature-text"><strong>Cross-Platform Integration:</strong> Seamless R/Python integration with automated environment management and dependency handling</p>
       </div>
     </div>
@@ -265,7 +265,7 @@ Advanced bioinformatics workflows and AI-powered research assistants that stream
     </div>
     
     <a href="https://github.com/schoo7/SRA_LLM" class="tool-url" target="_blank">
-      📁 https://github.com/schoo7/SRA_LLM
+      https://github.com/schoo7/SRA_LLM
     </a>
     
     <p class="tool-description">
