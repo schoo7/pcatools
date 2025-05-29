@@ -1,18 +1,46 @@
-/* RESPONSIVE LAYOUT - ADJUSTABLE TO SCREEN SIZE */
+/* FORCE RESPONSIVE LAYOUT - ADJUSTABLE TO SCREEN SIZE */
 html, body {
   width: 100% !important;
   max-width: none !important;
-  overflow-x: visible !important;
+  min-width: 0 !important; /* Ensure no minimum width constraint */
+  overflow-x: hidden !important; /* Prevent horizontal scroll unless necessary */
   margin: 0 !important;
   padding: 0 !important;
 }
 
-/* Override any theme container constraints */
-.wrapper, .page-content, .site-header, .site-footer, .post-content {
-  max-width: 95% !important; /* Use 95% of screen width */
-  width: 95% !important;
+/* Target all potential container elements with responsive width */
+.container, 
+.main-content,
+.page-content,
+.wrapper,
+.site-header,
+.site-footer,
+main,
+article,
+section,
+.site,
+.site-content {
+  max-width: 98% !important; /* Use 98% of screen width */
+  width: 98% !important;
   margin: 0 auto !important;
-  padding: 0 2.5% !important; /* 2.5% padding on each side */
+  padding-left: 1% !important; /* 1% padding on each side */
+  padding-right: 1% !important;
+}
+
+/* Ensure images are responsive */
+img {
+  max-width: 100% !important;
+  height: auto !important;
+}
+
+/* Reset any potentially conflicting media queries related to width */
+@media (min-width: 0) {
+  .container, .wrapper, .site-content { 
+    max-width: 98% !important;
+    width: 98% !important;
+    padding-left: 1% !important;
+    padding-right: 1% !important;
+  }
 }
 
 /* Modern Scientific Research Website Design */
@@ -39,7 +67,7 @@ html, body {
   --font-family-mono: 'Fira Code', 'SF Mono', Consolas, monospace;
   
   /* Spacing - Responsive */
-  --container-max-width: 95%; /* Responsive width */
+  --container-max-width: 98%; /* Responsive width */
   --section-padding: 4rem 0;
   --card-padding: 2rem;
   
