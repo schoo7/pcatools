@@ -1,16 +1,15 @@
-/* FORCE ULTRA-WIDE LAYOUT - HIGHEST PRIORITY */
+/* REASONABLE WIDE LAYOUT */
 html, body {
   width: 100% !important;
-  min-width: 7200px !important;
   max-width: none !important;
-  overflow-x: auto !important;
+  overflow-x: visible !important;
   margin: 0 !important;
   padding: 0 !important;
 }
 
 /* Override any theme container constraints */
 .wrapper, .page-content, .site-header, .site-footer, .post-content {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width instead of 5x */
   width: 100% !important;
   margin: 0 auto !important;
 }
@@ -39,7 +38,7 @@ html, body {
   --font-family-mono: 'Fira Code', 'SF Mono', Consolas, monospace;
   
   /* Spacing */
-  --container-max-width: 7200px;
+  --container-max-width: 2880px; /* 2x original width */
   --section-padding: 4rem 0;
   --card-padding: 2rem;
   
@@ -66,14 +65,16 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  min-width: 7200px !important;
-  overflow-x: auto !important;
   width: 100% !important;
+  max-width: none !important;
+  overflow-x: visible !important;
+  margin: 0 !important;
+  padding: 0 !important;
 }
 
 /* Container and Layout */
 .container {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
   margin: 0 auto;
   padding: 0 2rem !important;
@@ -429,17 +430,7 @@ code {
   }
 }
 
-/* FORCE ULTRA-WIDE LAYOUT */
-* {
-  max-width: none !important;
-}
-
-body, html {
-  width: 100% !important;
-  min-width: 7200px !important;
-  max-width: none !important;
-}
-
+/* Update container classes for 2x width */
 .container, 
 .main-content,
 .page-content,
@@ -449,7 +440,7 @@ body, html {
 main,
 article,
 section {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
   margin: 0 auto !important;
   padding-left: 2rem !important;
@@ -458,18 +449,18 @@ section {
 
 .hero .container,
 .tool-section .container {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
 }
 
 /* Override Jekyll theme constraints */
 .site-content {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
 }
 
-/* Force grid layouts to use full width */
+/* Force grid layouts to use reasonable width */
 .features-grid {
-  max-width: 7200px !important;
+  max-width: 2880px !important; /* 2x original width */
   width: 100% !important;
 }
