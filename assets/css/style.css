@@ -1,48 +1,3 @@
-/* FORCE RESPONSIVE LAYOUT - ADJUSTABLE TO SCREEN SIZE */
-html, body {
-  width: 100% !important;
-  max-width: none !important;
-  min-width: 0 !important; /* Ensure no minimum width constraint */
-  overflow-x: hidden !important; /* Prevent horizontal scroll unless necessary */
-  margin: 0 !important;
-  padding: 0 !important;
-}
-
-/* Target all potential container elements with responsive width */
-.container, 
-.main-content,
-.page-content,
-.wrapper,
-.site-header,
-.site-footer,
-main,
-article,
-section,
-.site,
-.site-content {
-  max-width: 98% !important; /* Use 98% of screen width */
-  width: 98% !important;
-  margin: 0 auto !important;
-  padding-left: 1% !important; /* 1% padding on each side */
-  padding-right: 1% !important;
-}
-
-/* Ensure images are responsive */
-img {
-  max-width: 100% !important;
-  height: auto !important;
-}
-
-/* Reset any potentially conflicting media queries related to width */
-@media (min-width: 0) {
-  .container, .wrapper, .site-content { 
-    max-width: 98% !important;
-    width: 98% !important;
-    padding-left: 1% !important;
-    padding-right: 1% !important;
-  }
-}
-
 /* Modern Scientific Research Website Design */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Fira+Code:wght@400;500&display=swap');
 
@@ -66,8 +21,8 @@ img {
   --font-family-primary: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
   --font-family-mono: 'Fira Code', 'SF Mono', Consolas, monospace;
   
-  /* Spacing - Responsive */
-  --container-max-width: 98%; /* Responsive width */
+  /* Spacing */
+  --container-max-width: 1440px;
   --section-padding: 4rem 0;
   --card-padding: 2rem;
   
@@ -82,7 +37,6 @@ img {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  max-width: none !important;
 }
 
 body {
@@ -94,19 +48,13 @@ body {
   font-weight: 400;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  width: 100% !important;
-  max-width: none !important;
-  overflow-x: visible !important;
-  margin: 0 !important;
-  padding: 0 !important;
 }
 
 /* Container and Layout */
 .container {
-  max-width: 95% !important; /* Use 95% of screen width */
-  width: 95% !important;
+  max-width: var(--container-max-width);
   margin: 0 auto;
-  padding: 0 2.5% !important; /* 2.5% padding on each side */
+  padding: 0 2rem;
 }
 
 /* Typography */
@@ -290,8 +238,6 @@ a:hover {
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
-  max-width: 7200px !important;
-  width: 100% !important;
 }
 
 .feature-item {
@@ -438,150 +384,4 @@ code {
   border-radius: 0.5rem;
   display: inline-block;
   box-shadow: var(--shadow-sm);
-}
-
-@media (max-width: 7680px) {
-  .container {
-    padding: 0 5rem;
-  }
-}
-
-@media (max-width: 4800px) {
-  .container {
-    padding: 0 3rem;
-  }
-  h1 { font-size: 4rem; }
-}
-
-@media (min-width: 7200px) {
-  html {
-    zoom: 0.8;
-  }
-}
-
-/* Update container classes for 2x width */
-.container, 
-.main-content,
-.page-content,
-.wrapper,
-.site-header,
-.site-footer,
-main,
-article,
-section {
-  max-width: 2880px !important; /* 2x original width */
-  width: 100% !important;
-  margin: 0 auto !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-.hero .container,
-.tool-section .container {
-  max-width: 2880px !important; /* 2x original width */
-  width: 100% !important;
-}
-
-/* Override Jekyll theme constraints */
-.site-content {
-  max-width: 2880px !important; /* 2x original width */
-  width: 100% !important;
-}
-
-/* Force grid layouts to use reasonable width */
-.features-grid {
-  max-width: 2880px !important; /* 2x original width */
-  width: 100% !important;
-}
-
-/* Responsive breakpoints */
-@media (min-width: 1200px) {
-  .container {
-    max-width: 90% !important;
-    padding: 0 5% !important;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container {
-    max-width: 85% !important;
-    padding: 0 7.5% !important;
-  }
-}
-
-@media (min-width: 2000px) {
-  .container {
-    max-width: 80% !important;
-    padding: 0 10% !important;
-  }
-}
-
-/* Update all container classes for responsive design */
-.container, 
-.main-content,
-.page-content,
-.wrapper,
-.site-header,
-.site-footer,
-main,
-article,
-section {
-  max-width: 95% !important; /* Responsive to screen size */
-  width: 95% !important;
-  margin: 0 auto !important;
-  padding-left: 2.5% !important;
-  padding-right: 2.5% !important;
-}
-
-.hero .container,
-.tool-section .container {
-  max-width: 95% !important; /* Responsive to screen size */
-  width: 95% !important;
-}
-
-/* Override Jekyll theme constraints */
-.site-content {
-  max-width: 95% !important; /* Responsive to screen size */
-  width: 95% !important;
-}
-
-/* Force grid layouts to be responsive */
-.features-grid {
-  max-width: 95% !important; /* Responsive to screen size */
-  width: 95% !important;
-}
-
-/* Additional responsive overrides */
-@media (min-width: 1200px) {
-  .container, 
-  .main-content,
-  .page-content,
-  .wrapper,
-  .site-header,
-  .site-footer,
-  .hero .container,
-  .tool-section .container,
-  .site-content,
-  .features-grid {
-    max-width: 90% !important;
-    padding-left: 5% !important;
-    padding-right: 5% !important;
-  }
-}
-
-@media (min-width: 1600px) {
-  .container, 
-  .main-content,
-  .page-content,
-  .wrapper,
-  .site-header,
-  .site-footer,
-  .hero .container,
-  .tool-section .container,
-  .site-content,
-  .features-grid {
-    max-width: 85% !important;
-    padding-left: 7.5% !important;
-    padding-right: 7.5% !important;
-  }
 }
