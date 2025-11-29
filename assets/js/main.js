@@ -7,8 +7,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initToolCardInteractions();
     initDynamicTooltips();
     initCopyToClipboard();
-    initSearchFunctionality();
-    initThemeToggle();
     initLoadingAnimations();
 });
 
@@ -106,79 +104,6 @@ function initCopyToClipboard() {
                 showNotification('URL copied to clipboard!');
             });
         });
-    });
-}
-
-// Search functionality for tools
-function initSearchFunctionality() {
-    // Create search bar
-    const searchHTML = `
-        <div class="search-container">
-            <input type="text" id="toolSearch" placeholder="🔍 Search tools and features..." />
-            <div id="searchResults"></div>
-        </div>
-    `;
-    
-    const hero = document.querySelector('.hero .container');
-    if (hero) {
-        hero.insertAdjacentHTML('beforeend', searchHTML);
-    }
-
-    const searchInput = document.getElementById('toolSearch');
-    const searchResults = document.getElementById('searchResults');
-    
-    if (searchInput) {
-        searchInput.addEventListener('input', function() {
-            const query = this.value.toLowerCase();
-            filterTools(query);
-        });
-    }
-}
-
-function filterTools(query) {
-    const toolCards = document.querySelectorAll('.tool-card');
-    let visibleCount = 0;
-    
-    toolCards.forEach(card => {
-        const title = card.querySelector('.tool-title').textContent.toLowerCase();
-        const description = card.querySelector('.tool-description').textContent.toLowerCase();
-        
-        if (title.includes(query) || description.includes(query) || query === '') {
-            card.style.display = 'block';
-            card.style.animation = 'fadeInUp 0.6s ease-out forwards';
-            card.style.animationDelay = `${visibleCount * 0.1}s`;
-            visibleCount++;
-        } else {
-            card.style.display = 'none';
-        }
-    });
-}
-
-// Theme toggle functionality
-function initThemeToggle() {
-    const themeToggle = document.getElementById('theme-toggle');
-    if (!themeToggle) return;
-
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    if (savedTheme === 'dark') {
-        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-    } else {
-        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-    }
-    
-    themeToggle.addEventListener('click', function() {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-
-        if (newTheme === 'dark') {
-            this.innerHTML = '<i class="fas fa-sun"></i>';
-        } else {
-            this.innerHTML = '<i class="fas fa-moon"></i>';
-        }
     });
 }
 
