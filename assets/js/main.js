@@ -96,14 +96,12 @@ function initDynamicTooltips() {
 function initCopyToClipboard() {
     document.querySelectorAll('.tool-url').forEach(urlElement => {
         urlElement.style.cursor = 'pointer';
-        urlElement.title = 'Click to copy URL';
+        urlElement.title = 'Click to open in new tab';
         
-        urlElement.addEventListener('click', function(e) {
-            e.preventDefault();
-            navigator.clipboard.writeText(this.textContent).then(() => {
-                showNotification('URL copied to clipboard!');
-            });
-        });
+        // Remove any existing click listeners
+        urlElement.removeEventListener('click', function() {});
+        
+        // Let the link work normally - open in new tab via target="_blank"
     });
 }
 
