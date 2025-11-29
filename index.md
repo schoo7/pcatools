@@ -3,15 +3,33 @@ layout: home
 title: ""
 ---
 
+<script src="assets/js/main.js"></script>
+
 <div class="hero">
   <div class="container">
-    <h1>Prostate Cancer Translational Research Hub</h1>
-    <p class="hero-subtitle">
-      Empowering clinicians and researchers with cutting-edge bioinformatics tools that bridge the gap between 
-      <strong>bedside</strong>, <strong>bench</strong>, and <strong>bytes</strong>. Our comprehensive suite of 
-      open-access platforms accelerates discovery, enables precision medicine, and democratizes access to 
-      advanced cancer research capabilities—no coding required.
-    </p>
+    <div class="hero-content">
+      <h1>Prostate Cancer Translational Research Hub</h1>
+      <p class="hero-subtitle">
+        Empowering clinicians and researchers with cutting-edge bioinformatics tools that bridge the gap between 
+        <strong>bedside</strong>, <strong>bench</strong>, and <strong>bytes</strong>. Our comprehensive suite of 
+        open-access platforms accelerates discovery, enables precision medicine, and democratizes access to 
+        advanced cancer research capabilities—no coding required.
+      </p>
+      <div class="hero-stats">
+        <div class="stat-item">
+          <span class="stat-number">4</span>
+          <span class="stat-label">Interactive Tools</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">2,000+</span>
+          <span class="stat-label">Cell Lines</span>
+        </div>
+        <div class="stat-item">
+          <span class="stat-number">500+</span>
+          <span class="stat-label">Multi-omics Samples</span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
 

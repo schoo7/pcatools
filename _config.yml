@@ -1,17 +1,41 @@
 # Site settings
 title: "Prostate Cancer Translational Research Hub"
 description: "Bridging Bedside, Bench, and Bytes - Advanced bioinformatics tools for prostate cancer research"
-theme: minima  # Default Jekyll theme
+url: "https://schoo7.github.io"
+baseurl: "/pcatools"
+
+# SEO and Social
+author: Siyuan Cheng
+email: siyuan.cheng@yale.edu
+twitter:
+  username: chengsiyuan1004
+  card: summary_large_image
+social:
+  name: Siyuan Cheng
+  links:
+    - https://twitter.com/chengsiyuan1004
+    - https://github.com/schoo7
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Plugins (indent with 2 spaces!)
 plugins:
   - jekyll-remote-theme
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 # Repository info
-repository: schoo7/pcatools  # Updated repository reference
+repository: schoo7/pcatools
 
 # Display settings
 show_downloads: false
+show_excerpts: true
 
 # Custom CSS
 sass:
@@ -23,3 +47,40 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
+  - node_modules
+  - vendor
+  - .git
+  - .github
+
+# Include files for processing
+include:
+  - _pages
+
+# Collections
+collections:
+  tools:
+    output: true
+    permalink: /:collection/:name/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "tools"
+    values:
+      layout: "tool"
+
+# Liquid settings
+liquid:
+  error_mode: warn
+  strict_filters: false
+  strict_variables: false
+
+# Compression
+compress_html:
+  clippings: all
+  comments: all
+  endings: all
+  startings: []
+  blanklines: false
+  profile: false
