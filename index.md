@@ -8,9 +8,6 @@ title: ""
 <div class="hero">
   <div class="container">
     <div class="hero-content">
-      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
-        <i class="fas fa-moon"></i>
-      </button>
       <h1>Prostate Cancer Translational Research Hub</h1>
       <p class="hero-subtitle">
         Empowering clinicians and researchers with cutting-edge bioinformatics tools that bridge the gap between 

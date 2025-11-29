@@ -9,7 +9,6 @@ document.addEventListener('DOMContentLoaded', function() {
     initCopyToClipboard();
     initParallaxEffects();
     initSearchFunctionality();
-    initThemeToggle();
     initLoadingAnimations();
 });
 
@@ -166,33 +165,7 @@ function filterTools(query) {
     });
 }
 
-// Theme toggle functionality
-function initThemeToggle() {
-    const themeToggle = document.getElementById('theme-toggle');
-    if (!themeToggle) return;
 
-    // Check for saved theme preference
-    const savedTheme = localStorage.getItem('theme') || 'light';
-    document.documentElement.setAttribute('data-theme', savedTheme);
-    if (savedTheme === 'dark') {
-        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
-    } else {
-        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
-    }
-    
-    themeToggle.addEventListener('click', function() {
-        const currentTheme = document.documentElement.getAttribute('data-theme');
-        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
-        document.documentElement.setAttribute('data-theme', newTheme);
-        localStorage.setItem('theme', newTheme);
-
-        if (newTheme === 'dark') {
-            this.innerHTML = '<i class="fas fa-sun"></i>';
-        } else {
-            this.innerHTML = '<i class="fas fa-moon"></i>';
-        }
-    });
-}
 
 // Loading animations for better perceived performance
 function initLoadingAnimations() {
