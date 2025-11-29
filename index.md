@@ -8,6 +8,9 @@ title: ""
 <div class="hero">
   <div class="container">
     <div class="hero-content">
+      <button class="theme-toggle" id="theme-toggle" title="Toggle dark mode">
+        <i class="fas fa-moon"></i>
+      </button>
       <h1>Prostate Cancer Translational Research Hub</h1>
       <p class="hero-subtitle">
         Empowering clinicians and researchers with cutting-edge bioinformatics tools that bridge the gap between 
@@ -28,6 +31,31 @@ title: ""
           <span class="stat-number">500+</span>
           <span class="stat-label">Multi-omics Samples</span>
         </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="container">
+  <div class="profile-section">
+    <div class="profile-image">
+      <img src="assets/profile.jpeg" alt="Siyuan Cheng" />
+    </div>
+    <div class="profile-content">
+      <h2>About Me</h2>
+      <p>
+        I am a computational biologist and aspiring physician-scientist with a passion for developing AI-driven platforms to improve prognosis and overcome therapeutic resistance in prostate cancer. My research focuses on building foundational 'big-data' resources, developing novel AI models to interpret these datasets, and validating these findings experimentally.
+      </p>
+      <div class="profile-links">
+        <a href="https://scholar.google.com/citations?user=1D7mdDsAAAAJ&hl=en" target="_blank">
+          <i class="fas fa-graduation-cap"></i> Google Scholar
+        </a>
+        <a href="https://www.researchgate.net/profile/Siyuan-Cheng-2?ev=hdr_xprf" target="_blank">
+          <i class="fas fa-flask"></i> ResearchGate
+        </a>
+        <a href="https://medicine.yale.edu/profile/siyuan-cheng/" target="_blank">
+          <i class="fas fa-university"></i> Yale School of Medicine
+        </a>
       </div>
     </div>
   </div>

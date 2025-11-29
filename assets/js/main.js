@@ -168,25 +168,29 @@ function filterTools(query) {
 
 // Theme toggle functionality
 function initThemeToggle() {
-    // Create theme toggle button
-    const themeToggle = document.createElement('button');
-    themeToggle.innerHTML = '🌙';
-    themeToggle.className = 'theme-toggle';
-    themeToggle.title = 'Toggle dark mode';
-    document.body.appendChild(themeToggle);
-    
+    const themeToggle = document.getElementById('theme-toggle');
+    if (!themeToggle) return;
+
     // Check for saved theme preference
     const savedTheme = localStorage.getItem('theme') || 'light';
+    document.documentElement.setAttribute('data-theme', savedTheme);
     if (savedTheme === 'dark') {
-        document.body.classList.add('dark-theme');
-        themeToggle.innerHTML = '☀️';
+        themeToggle.innerHTML = '<i class="fas fa-sun"></i>';
+    } else {
+        themeToggle.innerHTML = '<i class="fas fa-moon"></i>';
     }
     
     themeToggle.addEventListener('click', function() {
-        document.body.classList.toggle('dark-theme');
-        const isDark = document.body.classList.contains('dark-theme');
-        this.innerHTML = isDark ? '☀️' : '🌙';
-        localStorage.setItem('theme', isDark ? 'dark' : 'light');
+        const currentTheme = document.documentElement.getAttribute('data-theme');
+        const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+        document.documentElement.setAttribute('data-theme', newTheme);
+        localStorage.setItem('theme', newTheme);
+
+        if (newTheme === 'dark') {
+            this.innerHTML = '<i class="fas fa-sun"></i>';
+        } else {
+            this.innerHTML = '<i class="fas fa-moon"></i>';
+        }
     });
 }
 
@@ -284,28 +288,6 @@ const additionalCSS = `
     box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.1);
 }
 
-.theme-toggle {
-    position: fixed;
-    top: 2rem;
-    right: 2rem;
-    width: 3rem;
-    height: 3rem;
-    border-radius: 50%;
-    border: none;
-    background: var(--primary-blue);
-    color: white;
-    font-size: 1.5rem;
-    cursor: pointer;
-    box-shadow: var(--shadow-lg);
-    transition: all 0.3s ease;
-    z-index: 1000;
-}
-
-.theme-toggle:hover {
-    transform: scale(1.1);
-    background: var(--primary-blue-dark);
-}
-
 .notification {
     position: fixed;
     bottom: 2rem;
@@ -351,32 +333,6 @@ const additionalCSS = `
         opacity: 1;
         transform: scale(1);
     }
-}
-
-.dark-theme {
-    --neutral-50: #0f172a;
-    --neutral-100: #1e293b;
-    --neutral-200: #334155;
-    --neutral-300: #475569;
-    --neutral-600: #cbd5e1;
-    --neutral-700: #e2e8f0;
-    --neutral-800: #f1f5f9;
-    --neutral-900: #f8fafc;
-    background: linear-gradient(135deg, var(--neutral-50) 0%, var(--neutral-100) 100%);
-}
-
-.dark-theme .tool-card {
-    background: var(--neutral-100);
-    border-color: var(--neutral-200);
-}
-
-.dark-theme .feature-item {
-    background: var(--neutral-50);
-}
-
-.dark-theme #toolSearch {
-    background: var(--neutral-100);
-    color: var(--neutral-800);
 }
 `;
 
