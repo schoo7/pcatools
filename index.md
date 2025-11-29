@@ -76,7 +76,7 @@ title: ""
         <i class="fas fa-microscope"></i> Clinical metadata
       </div>
       <a href="https://doi.org/10.1002/pros.24448" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
-        <i class="fas fa-download"></i> Download Dataset
+        <i class="fas fa-external-link-alt"></i> View Dataset
       </a>
     </div>
 
@@ -92,7 +92,7 @@ title: ""
         <i class="fas fa-cogs"></i> Ready-to-use R objects
       </div>
       <a href="https://doi.org/10.1038/s41698-024-00667-x" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
-        <i class="fas fa-download"></i> Download Objects
+        <i class="fas fa-external-link-alt"></i> View Dataset
       </a>
     </div>
 
@@ -106,27 +106,27 @@ title: ""
       <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
         <a href="https://figshare.com/articles/dataset/RNAseq_data/26254769" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-dna"></i> RNA-seq Data
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Expression matrices</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
         <a href="https://figshare.com/articles/dataset/Origianl_bigWig_files_from_ATACseq/26253572" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-stream"></i> ATAC-seq BigWigs
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Chromatin accessibility</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
         <a href="https://figshare.com/articles/dataset/bigWig_files_from_ChIPseq/26262245" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-stream"></i> ChIP-seq BigWigs
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">TF binding profiles</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
         <a href="https://figshare.com/articles/figure/Raw_heatmaps_for_individual_samples_from_ATACseq_and_ChIPseq/26272126" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-chart-area"></i> Raw Heatmaps
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Visualization figures</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
         <a href="https://figshare.com/articles/dataset/Peak_files_from_ChIPseq_data_focusing_on_transcription_factors/26264216" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-project-diagram"></i> TF Peaks
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">MACS narrow peaks</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
         <a href="https://figshare.com/articles/dataset/Peak_files_from_ChIPseq_focusing_on_chromatin_modifications/26264273" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
           <i class="fas fa-project-diagram"></i> Chromatin Peaks
-          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Modification peaks</div>
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">View on Figshare</div>
         </a>
       </div>
     </div>
