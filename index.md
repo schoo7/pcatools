@@ -58,6 +58,82 @@ title: ""
 
 <div class="container">
 
+<h2>Open Research Data</h2>
+<p>Access raw data and processed files from our publications via Figshare. All datasets are freely available for the research community.</p>
+
+<div class="tool-section">
+  <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
+    
+    <!-- CTPC Data -->
+    <div class="feature-item">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">CTPC Raw Data</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+        <strong>1,840 prostate cancer cell line samples</strong> with comprehensive RNA-seq data for precision medicine research.
+      </p>
+      <div style="margin-bottom: 1rem; font-size: 0.85rem; color: #666;">
+        <i class="fas fa-database"></i> Raw count matrices<br>
+        <i class="fas fa-file-csv"></i> Processed data files<br>
+        <i class="fas fa-microscope"></i> Clinical metadata
+      </div>
+      <a href="https://doi.org/10.1002/pros.24448" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
+        <i class="fas fa-download"></i> Download Dataset
+      </a>
+    </div>
+
+    <!-- HuPSA Data -->
+    <div class="feature-item">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">HuPSA & MoPSA</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 1rem;">
+        <strong>Single-cell RNA-seq objects</strong> in Seurat V5 format for human and mouse prostate cancer atlases.
+      </p>
+      <div style="margin-bottom: 1rem; font-size: 0.85rem; color: #666;">
+        <i class="fas fa-dna"></i> Human prostate atlas<br>
+        <i class="fas fa-mouse"></i> Mouse prostate atlas<br>
+        <i class="fas fa-cogs"></i> Ready-to-use R objects
+      </div>
+      <a href="https://doi.org/10.1038/s41698-024-00667-x" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
+        <i class="fas fa-download"></i> Download Objects
+      </a>
+    </div>
+
+    <!-- LNCaP-ADT Bundle -->
+    <div class="feature-item" style="grid-column: 1 / -1;">
+      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">LNCaP-ADT Multi-Omics Bundle</h3>
+      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
+        <strong>Complete multi-omics dataset</strong> for androgen deprivation therapy resistance research (500+ samples across multiple timepoints).
+      </p>
+      
+      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <a href="https://figshare.com/articles/dataset/RNAseq_data/26254769" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-dna"></i> RNA-seq Data
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Expression matrices</div>
+        </a>
+        <a href="https://figshare.com/articles/dataset/Origianl_bigWig_files_from_ATACseq/26253572" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-stream"></i> ATAC-seq BigWigs
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Chromatin accessibility</div>
+        </a>
+        <a href="https://figshare.com/articles/dataset/bigWig_files_from_ChIPseq/26262245" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-stream"></i> ChIP-seq BigWigs
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">TF binding profiles</div>
+        </a>
+        <a href="https://figshare.com/articles/figure/Raw_heatmaps_for_individual_samples_from_ATACseq_and_ChIPseq/26272126" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-chart-area"></i> Raw Heatmaps
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Visualization figures</div>
+        </a>
+        <a href="https://figshare.com/articles/dataset/Peak_files_from_ChIPseq_data_focusing_on_transcription_factors/26264216" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-project-diagram"></i> TF Peaks
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">MACS narrow peaks</div>
+        </a>
+        <a href="https://figshare.com/articles/dataset/Peak_files_from_ChIPseq_focusing_on_chromatin_modifications/26264273" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
+          <i class="fas fa-project-diagram"></i> Chromatin Peaks
+          <div style="font-size: 0.75rem; color: #666; margin-top: 0.25rem;">Modification peaks</div>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
 <h2>Interactive Web Applications</h2>
 <p>Our web-based tools provide intuitive access to complex multi-omics datasets.</p>
 
@@ -238,65 +314,7 @@ title: ""
   </div>
 </div>
 
-<h2>Open Research Data</h2>
-<p>Access raw data and processed files from our publications via Figshare.</p>
 
-<div class="tool-section">
-  <div class="features-grid" style="grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));">
-    
-    <!-- CTPC Data -->
-    <div class="feature-item">
-      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">CTPC Raw Data</h3>
-      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-        Comprehensive raw RNA-seq data for 1,840 prostate cancer cell line samples.
-      </p>
-      <a href="https://lsuhs.figshare.com/articles/dataset/CTPC_raw_data/27987146" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
-        Download Data <i class="fas fa-download"></i>
-      </a>
-    </div>
-
-    <!-- HuPSA Data -->
-    <div class="feature-item">
-      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">HuPSA & MoPSA</h3>
-      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-        Raw scRNA-seq objects (Seurat V5 format) for human and mouse prostate atlas.
-      </p>
-      <a href="https://lsuhs.figshare.com/articles/dataset/HuPSA_and_MoPSA_raw_data_in_Seurat_V5_format/27987158" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
-        Download Objects <i class="fas fa-download"></i>
-      </a>
-    </div>
-
-    <!-- LNCaP-ADT Bundle -->
-    <div class="feature-item" style="grid-column: 1 / -1;">
-      <h3 style="font-size: 1.5rem; margin-bottom: 1rem;">LNCaP-ADT Multi-Omics Bundle</h3>
-      <p style="font-size: 0.9rem; margin-bottom: 1.5rem;">
-        Complete multi-omics dataset for the LNCaP-ADT model, including RNA-seq, ATAC-seq, and ChIP-seq data (500+ samples).
-      </p>
-      
-      <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
-        <a href="https://lsuhs.figshare.com/articles/dataset/RNAseq_data/26254769" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-dna"></i> RNA-seq Data
-        </a>
-        <a href="https://lsuhs.figshare.com/articles/dataset/Origianl_bigWig_files_from_ATACseq/26253572" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-stream"></i> ATAC-seq BigWigs
-        </a>
-        <a href="https://lsuhs.figshare.com/articles/dataset/bigWig_files_from_ChIPseq/26262245" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-stream"></i> ChIP-seq BigWigs
-        </a>
-        <a href="https://lsuhs.figshare.com/articles/figure/Raw_heatmaps_for_individual_samples_from_ATACseq_and_ChIPseq/26272126" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-chart-area"></i> Raw Heatmaps
-        </a>
-        <a href="https://lsuhs.figshare.com/articles/dataset/Peak_files_from_ChIPseq_data_focusing_on_transcription_factors/26264216" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-project-diagram"></i> TF Peaks
-        </a>
-        <a href="https://lsuhs.figshare.com/articles/dataset/Peak_files_from_ChIPseq_focusing_on_chromatin_modifications/26264273" target="_blank" class="tool-url" style="margin-bottom: 0; font-size: 0.85rem;">
-          <i class="fas fa-project-diagram"></i> Chromatin Peaks
-        </a>
-      </div>
-    </div>
-
-  </div>
-</div>
 
 </div>
 
