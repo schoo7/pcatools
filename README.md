@@ -81,37 +81,6 @@ An intelligent research assistant leveraging Large Language Models to accelerate
 
 ---
 
-## **Technical Architecture**
-
-<div align="center">
-
-```mermaid
-graph TD
-    A[GitHub Pages] --> B[Jekyll Static Site]
-    B --> C[Modern CSS + JavaScript]
-    C --> D[Interactive Tools]
-    D --> E[Shiny Applications]
-    D --> F[Analysis Pipelines]
-    D --> G[AI Assistants]
-    
-    style A fill:#24292e,color:#fff
-    style B fill:#0366d6,color:#fff
-    style C fill:#28a745,color:#fff
-    style D fill:#f66a0a,color:#fff
-```
-
-</div>
-
-### **Technology Stack**
-- **Frontend**: Jekyll + GitHub Pages
-- **Styling**: Modern CSS with custom design system
-- **Interactivity**: Vanilla JavaScript with modern ES6+ features
-- **Web Apps**: Shiny applications hosted on ShinyApps.io
-- **Analysis Tools**: R/Python pipelines with automated workflows
-- **AI Integration**: Large Language Models for research assistance
-
----
-
 ## **Getting Started**
 
 ### **For Researchers**
@@ -177,18 +146,6 @@ We welcome contributions from the research community! Here's how you can help:
 
 ---
 
-<div align="center">
-
-## **Star This Repository**
-
-[![Star History Chart](https://api.star-history.com/svg?repos=schoo7/pcatools&type=Date)](https://star-history.com/#schoo7/pcatools&Date)
-
-*If you find our tools helpful, please consider giving us a star!*
-
----
-
 *"Empowering the next generation of precision cancer research through accessible bioinformatics."*
-
-</div>
 
 </div>
