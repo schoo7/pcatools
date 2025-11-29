@@ -318,13 +318,3 @@ title: ""
 
 </div>
 
-<div class="footer">
-  <div class="container">
-    <p>
-      <strong>Developed by <a href="mailto:siyuan.cheng@yale.edu">Siyuan Cheng</a> | Mu Lab</strong><br>
-      Bridging Prostate Cancer Biology & Computational Innovation<br>
-      <a href="https://twitter.com/chengsiyuan1004" target="_blank">@chengsiyuan1004</a> | 
-      <a href="mailto:siyuan.cheng@yale.edu">siyuan.cheng@yale.edu</a>
-    </p>
-  </div>
-</div>
