@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ page.title | default: site.title | default: "Prostate Cancer Research Hub" }}</title>
     <meta name="description" content="{{ page.description | default: site.description | default: "Advanced bioinformatics tools for prostate cancer research" }}">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}?v={{ site.time | date: '%s' }}">
     <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
     {% if site.twitter.username %}
         <meta name="twitter:card" content="{{ site.twitter.card | default: "summary" }}">
