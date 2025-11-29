@@ -19,133 +19,50 @@ A comprehensive **GitHub Pages** site hosting an integrated suite of bioinformat
 
 ---
 
-## **Interactive Web Applications**
+# Siyuan Cheng, Ph.D.
 
-Our web-based tools provide intuitive access to complex multi-omics datasets, enabling real-time exploration and analysis of prostate cancer biology.
+**Postdoctoral Associate** | Department of Urology, Yale University  
+[siyuan.cheng@yale.edu](mailto:siyuan.cheng@yale.edu) | [Google Scholar](https://scholar.google.com/citations?user=1D7mdDsAAAAJ&hl=en) | [ResearchGate](https://www.researchgate.net/profile/Siyuan-Cheng-2)
 
-| Tool | Description | Live Demo | Status |
-|------|-------------|-----------|---------|
-| **HuPSA-MoPSA** | Single-cell atlas explorer for human and mouse prostate cancer | [Link Live Site](https://pcatools.shinyapps.io/HuPSA-MoPSA/) | Active |
-| **CTPC** | Comprehensive prostate cancer cell line encyclopedia | [Link Live Site](https://pcatools.shinyapps.io/CTPC_dev/) | Active |
-| **LNCaP-ADT Hub** | Multi-omics analysis of androgen deprivation therapy resistance | [Link Live Site](https://pcatools.shinyapps.io/shinyADT/) | Active |
-| **PCTA** | Pan-cancer cell line transcriptome atlas | [Link Live Site](https://pcatools.shinyapps.io/PCTA_app/) | Active |
+## Professional Service
 
----
+### Editorial Roles
+- **Review Editor**: *Frontiers in Oncology*
 
-## **Computational Tools & Pipelines**
+### Peer Reviewer
+Active reviewer for leading oncology and biology journals, including:
+- *Oncogene*
+- *Molecular Cancer*
+- *npj Precision Oncology*
+- *Cell & Bioscience*
+- *Cell Biology and Toxicology*
+- *Scientific Reports*
+- *Journal of Translational Medicine*
+- *Journal of Cancer Research and Clinical Oncology*
+- *Human Genomics*
+- *Discover Oncology*
 
-Advanced bioinformatics workflows and AI-powered research assistants that streamline complex analytical tasks.
+## Selected Publications
 
-### **IMPACT-sc: Integrated Single-Cell Analysis Pipeline**
+### First & Corresponding Author
+1. **Cheng, S.**, Li, L., Yeh, Y., & Yu, X. (2024). Unveiling novel double-negative prostate cancer subtypes through single-cell RNA sequencing analysis. *npj Precision Oncology*, 8, 171.
+2. **Cheng, S.**, Li, L., & Yu, X. (2024). PCTA, a pan-cancer cell line transcriptome atlas. *Cancer Letters*, 586, 216808.
+3. Li, L., Cho, K. H., Yu, X., & **Cheng, S.** (2025). Systematic multi-omics investigation of androgen receptor driven gene expression and epigenetics changes in prostate cancer. *Computers in Biology and Medicine*, 189, 110000. (**Corresponding Author**)
+4. **Cheng, S.**, & Yu, X. (2023). CTPC, a combined transcriptome data set of human prostate cancer cell lines. *The Prostate*, 83(2), 158-161. (**Cover Image**)
+5. **Cheng, S.**, Yang, S., Shi, Y., Shi, R., Yeh, Y., & Yu, X. (2021). Neuroendocrine prostate cancer has distinctive, non-prostatic HOX code that is represented by the loss of HOXB13 expression. *Scientific Reports*, 11(1), 2778. (**Top 100 in Cancer Collection**)
+6. **Cheng, S.**, & Yu, X. (2021). The spectrum of neuroendocrine differentiation in prostate cancer. *Prostate Cancer and Prostatic Diseases*, 24(4), 1214-1215.
+7. **Cheng, S.**, Prieto-Dominguez, N., et al. (2020). The Expression of YAP1 Is Increased in High-Grade Prostatic Adenocarcinoma but Is Reduced in Neuroendocrine Prostate Cancer. *Prostate Cancer and Prostatic Diseases*, 23(4), 661-669.
 
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github)](https://github.com/schoo7/impact_sc)
+*For a comprehensive list of publications, please visit my [Google Scholar profile](https://scholar.google.com/citations?user=1D7mdDsAAAAJ&hl=en).*
 
-A comprehensive pipeline for single-cell transcriptomics analysis, integrating data processing, cell type annotation, differential expression, trajectory inference, and multi-omics integration.
+## Education
+- **Postdoctoral Training** (Prostate Cancer), Yale University (2025–Present)
+- **Postdoctoral Training** (Prostate Cancer), LSU Health Shreveport (2022–2024)
+- **Ph.D. Biochemistry & Molecular Biology**, LSU Health Shreveport (2018–2022)
+- **B.S. Biotechnology**, Hunan University (2013–2017)
 
-#### **Key Features**
-- **Modular Architecture**: 10+ analysis modules from QC to advanced downstream analyses
-- **AI-Powered Annotation**: Integrates Cell2Sentence and SingleR for intelligent cell type prediction
-- **Advanced Analytics**: Pathway analysis with DecoupleR, UCell, and Palantir
-- **Cross-Platform Integration**: Seamless R/Python integration with automated workflows
-
----
-
-### **SRA-LLM: Smart Research Assistant**
-
-[![GitHub Repository](https://img.shields.io/badge/GitHub-Repository-blue?style=flat-square&logo=github)](https://github.com/schoo7/SRA_LLM)
-
-An intelligent research assistant leveraging Large Language Models to accelerate literature review, hypothesis generation, and knowledge discovery in cancer research.
-
-#### **Key Features**
-- **LLM Integration**: Powered by state-of-the-art language models for intelligent analysis
-- **Literature Mining**: Automated extraction and summarization of research publications
-- **Hypothesis Generation**: AI-assisted identification of research gaps and novel directions
-- **Knowledge Integration**: Connects findings across studies to reveal hidden patterns
-
----
-
-## **Platform Highlights**
-
-<div align="center">
-
-| Feature | Description |
-|---------|-------------|
-| **No Coding Required** | Intuitive web interfaces for all research tools |
-| **Mobile Optimized** | Access from any device, anywhere, anytime |
-| **Open Science** | Publicly available datasets with reproducible methods |
-| **Real-Time Analysis** | Interactive visualizations and instant results |
-| **Clinical Translation** | Bridge preclinical findings with clinical data |
-| **Modern UI/UX** | Beautiful, responsive design with smooth animations |
-
-</div>
-
----
-
-## **Getting Started**
-
-### **For Researchers**
-1. **Visit** [our live site](https://schoo7.github.io/pcatools/)
-2. **Explore** the interactive tools
-3. **Search** for specific genes or datasets
-4. **Export** results for further analysis
-
-### **For Developers**
-```bash
-# Clone the repository
-git clone https://github.com/schoo7/pcatools.git
-
-# Navigate to the project directory
-cd pcatools
-
-# Install Jekyll dependencies
-bundle install
-
-# Run locally
-bundle exec jekyll serve
-```
-
----
-
-## **Impact & Metrics**
-
-<div align="center">
-
-| Metric | Value |
-|--------|-------|
-| **Interactive Tools** | 4+ |
-| **Cell Lines Analyzed** | 2,000+ |
-| **Multi-omics Samples** | 500+ |
-| **Research Publications** | 50+ |
-| **Global Users** | 1000+ |
-
-</div>
-
----
-
-## **Contributing**
-
-We welcome contributions from the research community! Here's how you can help:
-
-- **Report Issues**: Found a bug? [Open an issue](https://github.com/schoo7/pcatools/issues)
-- **Feature Requests**: Have an idea? [Start a discussion](https://github.com/schoo7/pcatools/discussions)
-- **Pull Requests**: Ready to contribute? [Submit a PR](https://github.com/schoo7/pcatools/pulls)
-- **Documentation**: Help improve our documentation
-
----
-
-## **Contact & Collaboration**
-
-<div align="center">
-
-**Developed by [Siyuan Cheng](mailto:siyuan.cheng@yale.edu) | [Mu Lab](https://medicine.yale.edu/lab/mu/)**  
-**Yale University**  
-
-[![Twitter](https://img.shields.io/badge/Twitter-@chengsiyuan1004-blue?style=flat-square&logo=twitter)](https://twitter.com/chengsiyuan1004)
-[![Email](https://img.shields.io/badge/Email-siyuan.cheng@yale.edu-red?style=flat-square&logo=gmail)](mailto:siyuan.cheng@yale.edu)
-[![GitHub](https://img.shields.io/badge/GitHub-schoo7-black?style=flat-square&logo=github)](https://github.com/schoo7)
-
----
-
-*"Empowering the next generation of precision cancer research through accessible bioinformatics."*
-
-</div>
+## Developed Bioinformatics Resources
+- **[CTPC](https://pcatools.shinyapps.io/CTPC_dev/):** Combined Transcriptome of Prostate Cancer Cell Lines (1,840 samples).
+- **[HuPSA-MoPSA](https://pcatools.shinyapps.io/HuPSA-MoPSA/):** Single-cell atlas explorer for human & mouse prostate.
+- **[PCTA](https://pcatools.shinyapps.io/PCTA_app/):** Pan-Cancer Cell Line Transcriptome Atlas (84,000+ samples).
+- **[LNCaP-ADT](https://pcatools.shinyapps.io/shinyADT/):** Multi-omics hub for Androgen Deprivation Therapy resistance.

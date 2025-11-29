@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ site.title | default: "Prostate Cancer Research Hub" }}</title>
+    <meta name="description" content="{{ site.description | default: "Advanced bioinformatics tools for prostate cancer research" }}">
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+    <link rel="icon" type="image/x-icon" href="{{ '/assets/favicon.ico' | relative_url }}">
+    {% if site.twitter.username %}
+        <meta name="twitter:card" content="{{ site.twitter.card | default: "summary" }}">
+        <meta name="twitter:site" content="@{{ site.twitter.username }}">
+    {% endif %}
+</head>
+<body>
+    {{ content }}
+    
+    <footer class="footer">
+        <div class="container">
+            <p>
+                <strong>Developed by <a href="mailto:{{ site.email }}">{{ site.author }}</a> | Mu Lab</strong><br>
+                Bridging Prostate Cancer Biology & Computational Innovation<br>
+                {% if site.twitter.username %}<a href="https://twitter.com/{{ site.twitter.username }}" target="_blank">@{{ site.twitter.username }}</a> | {% endif %}
+                <a href="mailto:{{ site.email }}">{{ site.email }}</a>
+            </p>
+        </div>
+    </footer>
+</body>
+</html>
