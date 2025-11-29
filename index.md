@@ -75,7 +75,7 @@ title: ""
         <i class="fas fa-file-csv"></i> Processed data files<br>
         <i class="fas fa-microscope"></i> Clinical metadata
       </div>
-      <a href="https://doi.org/10.1002/pros.24448" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
+      <a href="https://figshare.com/articles/dataset/CTPC_raw_data/27987146" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
         <i class="fas fa-external-link-alt"></i> View Dataset
       </a>
     </div>
@@ -91,7 +91,7 @@ title: ""
         <i class="fas fa-mouse"></i> Mouse prostate atlas<br>
         <i class="fas fa-cogs"></i> Ready-to-use R objects
       </div>
-      <a href="https://doi.org/10.1038/s41698-024-00667-x" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
+      <a href="https://figshare.com/articles/dataset/HuPSA_and_MoPSA_raw_data_in_Seurat_V5_format/27987158" target="_blank" class="tool-url" style="width: 100%; text-align: center; margin-bottom: 0;">
         <i class="fas fa-external-link-alt"></i> View Dataset
       </a>
     </div>
